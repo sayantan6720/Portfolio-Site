@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import "./index.css";
 
 // Simple animated element component
 const AnimatedSection = ({ children, className, delay = 0 }) => {
@@ -242,7 +243,7 @@ const Portfolio = () => {
       period: "April 2025",
       details: "GPA: 4.0/4.0",
       courses:
-        "Algorithms, Database Management Systems, Program Design Paradigm, Unsupervised Machine Learning",
+        "Database Management Systems, Program Design Paradigm, Unsupervised Machine Learning, Natural Language Processing, Foundations of AI",
     },
     {
       degree: "B.E. in Computer Science",
